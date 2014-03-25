@@ -19,6 +19,15 @@
 		F259AE2918E051660070E137 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F259AE1118E051660070E137 /* UIKit.framework */; };
 		F259AE3118E051660070E137 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F259AE2F18E051660070E137 /* InfoPlist.strings */; };
 		F259AE3318E051660070E137 /* SHCommonsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE3218E051660070E137 /* SHCommonsTests.m */; };
+		F259AE9018E1BC670070E137 /* NSDateFormatter+Locale.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE8418E1BC670070E137 /* NSDateFormatter+Locale.m */; };
+		F259AE9118E1BC670070E137 /* NSDictionary+NSNullCheck.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE8618E1BC670070E137 /* NSDictionary+NSNullCheck.m */; };
+		F259AE9218E1BC670070E137 /* NSString+SHA256.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE8818E1BC670070E137 /* NSString+SHA256.m */; };
+		F259AE9318E1BC670070E137 /* SHAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE8A18E1BC670070E137 /* SHAlertView.m */; };
+		F259AE9518E1BC670070E137 /* SHSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE8F18E1BC670070E137 /* SHSegmentedControl.m */; };
+		F259AE9E18E1BC8F0070E137 /* UINavigationController+Keyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE9718E1BC8F0070E137 /* UINavigationController+Keyboard.m */; };
+		F259AE9F18E1BC8F0070E137 /* UINavigationController+Rotation.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE9918E1BC8F0070E137 /* UINavigationController+Rotation.m */; };
+		F259AEA018E1BC8F0070E137 /* UIView+Nib.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE9B18E1BC8F0070E137 /* UIView+Nib.m */; };
+		F259AEA118E1BC8F0070E137 /* SHScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = F259AE9D18E1BC8F0070E137 /* SHScrollView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +57,25 @@
 		F259AE2E18E051660070E137 /* SHCommonsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SHCommonsTests-Info.plist"; sourceTree = "<group>"; };
 		F259AE3018E051660070E137 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F259AE3218E051660070E137 /* SHCommonsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHCommonsTests.m; sourceTree = "<group>"; };
+		F259AE8318E1BC670070E137 /* NSDateFormatter+Locale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDateFormatter+Locale.h"; sourceTree = "<group>"; };
+		F259AE8418E1BC670070E137 /* NSDateFormatter+Locale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDateFormatter+Locale.m"; sourceTree = "<group>"; };
+		F259AE8518E1BC670070E137 /* NSDictionary+NSNullCheck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSNullCheck.h"; sourceTree = "<group>"; };
+		F259AE8618E1BC670070E137 /* NSDictionary+NSNullCheck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSNullCheck.m"; sourceTree = "<group>"; };
+		F259AE8718E1BC670070E137 /* NSString+SHA256.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SHA256.h"; sourceTree = "<group>"; };
+		F259AE8818E1BC670070E137 /* NSString+SHA256.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SHA256.m"; sourceTree = "<group>"; };
+		F259AE8918E1BC670070E137 /* SHAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHAlertView.h; sourceTree = "<group>"; };
+		F259AE8A18E1BC670070E137 /* SHAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHAlertView.m; sourceTree = "<group>"; };
+		F259AE8B18E1BC670070E137 /* SHDelayBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDelayBlocks.h; sourceTree = "<group>"; };
+		F259AE8E18E1BC670070E137 /* SHSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHSegmentedControl.h; sourceTree = "<group>"; };
+		F259AE8F18E1BC670070E137 /* SHSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHSegmentedControl.m; sourceTree = "<group>"; };
+		F259AE9618E1BC8F0070E137 /* UINavigationController+Keyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Keyboard.h"; sourceTree = "<group>"; };
+		F259AE9718E1BC8F0070E137 /* UINavigationController+Keyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Keyboard.m"; sourceTree = "<group>"; };
+		F259AE9818E1BC8F0070E137 /* UINavigationController+Rotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotation.h"; sourceTree = "<group>"; };
+		F259AE9918E1BC8F0070E137 /* UINavigationController+Rotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotation.m"; sourceTree = "<group>"; };
+		F259AE9A18E1BC8F0070E137 /* UIView+Nib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Nib.h"; sourceTree = "<group>"; };
+		F259AE9B18E1BC8F0070E137 /* UIView+Nib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Nib.m"; sourceTree = "<group>"; };
+		F259AE9C18E1BC8F0070E137 /* SHScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHScrollView.h; sourceTree = "<group>"; };
+		F259AE9D18E1BC8F0070E137 /* SHScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +135,7 @@
 		F259AE1318E051660070E137 /* SHCommons */ = {
 			isa = PBXGroup;
 			children = (
+				F259AE8218E1BC4F0070E137 /* SHCommons */,
 				F259AE1C18E051660070E137 /* SHAppDelegate.h */,
 				F259AE1D18E051660070E137 /* SHAppDelegate.m */,
 				F259AE1F18E051660070E137 /* Images.xcassets */,
@@ -142,6 +171,32 @@
 				F259AE2F18E051660070E137 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F259AE8218E1BC4F0070E137 /* SHCommons */ = {
+			isa = PBXGroup;
+			children = (
+				F259AE8318E1BC670070E137 /* NSDateFormatter+Locale.h */,
+				F259AE8418E1BC670070E137 /* NSDateFormatter+Locale.m */,
+				F259AE8518E1BC670070E137 /* NSDictionary+NSNullCheck.h */,
+				F259AE8618E1BC670070E137 /* NSDictionary+NSNullCheck.m */,
+				F259AE8718E1BC670070E137 /* NSString+SHA256.h */,
+				F259AE8818E1BC670070E137 /* NSString+SHA256.m */,
+				F259AE9618E1BC8F0070E137 /* UINavigationController+Keyboard.h */,
+				F259AE9718E1BC8F0070E137 /* UINavigationController+Keyboard.m */,
+				F259AE9818E1BC8F0070E137 /* UINavigationController+Rotation.h */,
+				F259AE9918E1BC8F0070E137 /* UINavigationController+Rotation.m */,
+				F259AE9A18E1BC8F0070E137 /* UIView+Nib.h */,
+				F259AE9B18E1BC8F0070E137 /* UIView+Nib.m */,
+				F259AE9C18E1BC8F0070E137 /* SHScrollView.h */,
+				F259AE9D18E1BC8F0070E137 /* SHScrollView.m */,
+				F259AE8918E1BC670070E137 /* SHAlertView.h */,
+				F259AE8A18E1BC670070E137 /* SHAlertView.m */,
+				F259AE8B18E1BC670070E137 /* SHDelayBlocks.h */,
+				F259AE8E18E1BC670070E137 /* SHSegmentedControl.h */,
+				F259AE8F18E1BC670070E137 /* SHSegmentedControl.m */,
+			);
+			path = SHCommons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,8 +295,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F259AE9318E1BC670070E137 /* SHAlertView.m in Sources */,
 				F259AE1A18E051660070E137 /* main.m in Sources */,
+				F259AE9118E1BC670070E137 /* NSDictionary+NSNullCheck.m in Sources */,
+				F259AEA018E1BC8F0070E137 /* UIView+Nib.m in Sources */,
+				F259AE9518E1BC670070E137 /* SHSegmentedControl.m in Sources */,
+				F259AEA118E1BC8F0070E137 /* SHScrollView.m in Sources */,
 				F259AE1E18E051660070E137 /* SHAppDelegate.m in Sources */,
+				F259AE9E18E1BC8F0070E137 /* UINavigationController+Keyboard.m in Sources */,
+				F259AE9018E1BC670070E137 /* NSDateFormatter+Locale.m in Sources */,
+				F259AE9218E1BC670070E137 /* NSString+SHA256.m in Sources */,
+				F259AE9F18E1BC8F0070E137 /* UINavigationController+Rotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
